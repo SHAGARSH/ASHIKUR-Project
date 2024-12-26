@@ -1,0 +1,1457 @@
+/** COMMON CSS STARTS HERE */
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,p,span{
+    margin: 0;
+    padding: o;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "arial";
+}
+.container{
+
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+/** COMMON CSS ENDS HERE */
+/* navbar Start */
+.navbar ul li a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: #353535;
+    text-transform: uppercase;
+    padding: 18px 25px 5px;
+    margin-right: 45px;
+    position: relative;
+}
+.navbar ul li a:hover{
+    color: rgb(229, 196, 9);
+}
+.navbar li a::before{
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #353535;
+    position: absolute;
+    bottom: 0;
+    transition: 0.3s;
+}
+.navbar li:hover a::before{
+    width:70%;
+}
+/* navbar End */
+
+/* Banner Start */
+
+.Banner .BannerCnt{
+    display: flex;
+    padding-top: 119px;
+}
+.Banner .BannerCnt h5{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+}
+.Banner .BannerCnt h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+}
+.Banner .BannerCnt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+}
+.BannerCnt .btn {
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 209px;
+    height: 69px;
+    margin-top: 45px;
+}
+.BannerCnt .btn a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+.BannerCnt .btn a:hover{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+}
+.BannerCnt .btn:hover{
+    background: #fc0;
+    border: none;
+}
+.BannerCnt .FollowMe{
+    display: inline-flex;
+    margin-top: 66px;
+}
+.BannerCnt .FollowMe h3{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: #353535;
+}
+.FollowMeIcon a {
+    margin-right: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #f4f3f3;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+.FollowMeIcon a i{
+    width: 20px;
+    height: 20px;
+    color: #000;
+}
+.mouseIcon{
+    text-align: end;
+
+}
+ 
+.BannerImg {
+    padding-top: 61px;
+}
+/* Banner End */
+
+/* About Me Start */
+.AboutMe{
+    background-image: url(../Images/about\ Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+
+}
+.AboutCnt{
+    position: relative;
+}
+.AboutCnt h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+    padding-top: 78px;
+}
+.AboutCnt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    padding-top: 26px;
+    padding-bottom: 45px;
+}
+.AboutCnt a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 17px 43px ;
+}
+.AboutCnt a:hover{
+    color: #f4f3f3;
+    background-color: #fc0;
+    border: none;
+}
+.AboutCnt .overlay{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* About Me End */
+/* Card Start */
+.Card{
+    padding: 100px 0px 100px;
+}
+.Card .CardItem img{
+    width: 78px;
+    height: 79px;
+    margin-top: 39px;
+}
+.Card .CardItem h3{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    margin: 18px 14px;
+}
+.Card .CardItem p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    text-align: center;
+    color: #7a7a7a;
+}
+.Card .CardItem{
+    border-radius: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 57px;
+    padding-top: 30px;
+    /* width: 350px;
+    height: 367px; */
+}
+/* Card End */
+/* Branding Start */
+.BrandingBg {
+    background-image: url(../Images/Group\ backround\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Branding .BrandinCnt h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 44px;
+    color: #353535;
+    padding-top: 83px;
+}
+.Branding .BrandinCnt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    padding-top: 21px;
+    padding-bottom: 35px;
+}
+.Branding .BrandinCnt a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 18px 38px 18px 38px;
+}
+/* Branding End */
+/* Help Start */
+.Help{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Help .HelpCard .Card1{
+    display: flex;
+    border-radius: 20px;
+    width: 380px;
+    height: 93px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.HelpCard .icon{
+    margin-right: 40px;
+}
+.HelpCard h4{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: #353535;
+}
+.HelpCard span{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+    color: #353535;
+}
+.Help .What h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+    color: #353535;
+}
+.Help .What p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    text-align: right;
+    color: #353535;
+    padding-top: 26px;
+    padding-bottom: 32px;
+}
+.Help .count{
+    justify-content: end;
+}
+
+.Help .count h5{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: right;
+    color: #353535;
+    text-align:center;
+    
+}
+.Help .count span{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #353535;
+    text-align:right;
+}
+/* Help End */
+
+/* My Work Experience Start */
+.MyWork{
+    padding-bottom: 100px;
+}
+.MyWork h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+    padding-bottom: 80px;
+}
+.MyWork .year{
+    position: relative;
+}
+.MyWork .year h4{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
+}
+.MyWork .year span{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+}
+.MyWork .yearCnt{
+    border-right: 2px dashed #7a7a7a;
+    padding: 0px 0 99px;
+    position: relative;
+}
+.MyWork .yearCnt::before{
+    content:'' ;
+    position: absolute;
+    top: -21px;
+    right: -21px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px dashed #7a7a7a;
+    background-color: #fff;
+}
+.MyWork .yearCnt::after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+.MyWork .green .yearCnt::after{
+    background-color: #52AB70;
+}
+.MyWork .red .yearCnt::after{
+    background-color: #F17676;
+}
+.MyWork .yello .yearCnt::after{
+    background-color: #FFD233;
+}
+.MyWork .totle{
+    padding-left: 70px;
+}
+.MyWork .totle h4{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
+}
+.MyWork .totle span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+}
+/* My Work Experience End */
+
+/* My Expert Areas Start */
+.MyExpert{
+    padding-bottom: 100px;
+}
+
+.MyExpert .MyExpertCnt h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+    padding-bottom: 49px;
+}
+.MyExpert .MyExpertCnt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #7a7a7a; 
+}
+.MyExpert .MyExpertCnt a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #fff;
+    background-color: #FFCC00;
+    padding: 10px 21px 10px 21px;
+    border-radius: 12px;
+    margin-top: 40px;
+    display:inline-block;;
+}
+.progressBar{
+    padding-left: 100px;
+}
+.progressBar #home-tab{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    border: none;
+    margin-right: 30px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+    margin-bottom: 50px;
+    display:ruby-text;
+}
+.progressBar #home-tab:hover{
+    background-color: #fc0;
+    color: #fff;
+    border: none;    
+}
+.progressBar #profile-tab{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 160px;
+    height: 60px;
+ 
+}
+.progressBar #profile-tab:hover{
+    background-color: #fc0;
+    color: #fff;
+    border: none;    
+}
+.progressBar .nav-tabs{
+    border: none;
+}
+.progressBar .progress{
+    margin-bottom: 44px;
+}
+.progressBar .Figma .number{
+    padding-left: 80px;
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #f16500;
+}
+.progressBar .progress{
+    border-radius: 50px;
+    width: 342px;
+    height: 6px;   
+}
+.progressBar  .progress-bar{
+    background-color: #f16500;
+}
+.progressBar .Photoshop .number{
+    padding-left: 46px;
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #03249b;;
+}
+.progressBar  .progress-bar2{
+    background-color: #03249b;
+}
+.progressBar .XD .number{
+    padding-left: 58px;
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #700d60;
+}
+.progressBar  .progress-bar3{
+    background-color: #700d60;
+}
+.progressBar .row{
+    padding-bottom: 11px;
+}
+.progressBar .Illustrator .number{
+    padding-left: 52px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #234bda;
+    display: block;
+}
+.progressBar  .progress-bar4{
+    background-color: #234bda;
+}
+ /* My Expert Areas Start */
+
+ /* My Sevices Start */
+ .MySevices{
+    background-color: #FFF7D5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 838px;
+    margin-bottom: 100px;
+
+ }
+ .MySevices h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+    padding-top: 71px;
+    padding-bottom: 13px;
+ }
+ .MySevices p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #7a7a7a;
+ }
+ .MySevicesCard{
+    border: 0.10px solid #353535;
+    border-radius: 12px;
+    width: 350px;
+    height: 422px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    text-align: center;
+    padding: 32px 48px 79px 49px;
+    margin-top: 99px;
+    margin-bottom: 99px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+ }
+ .MySevicesCard h3{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    padding: 20px 0px 25px;
+ }
+ .MySevicesCard p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 180%;
+    text-align: center;
+    color: #7a7a7a;
+ }
+ .MySevicesCard:hover{
+    border: 0.10px solid #353535;
+    border: none;
+    border-radius: 12px;
+    width: 360px;
+    height: 448px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    background: linear-gradient(151deg, #fc0 0%, #ffe476 98.84%);
+ }
+ /* My Sevices End */
+
+ 
+
+
+ /* Valuable feedback  Start */
+ .ValuableFeedbac{
+    padding-bottom: 100px;
+    background-color: #FBFBFB;
+    height: 859px;
+ }
+.ValuableFeedbac h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 135%;
+    color: #353535;
+    padding-top: 70px;
+    padding-bottom: 13px;
+}
+.ValuableFeedbac p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+ 
+}
+.ValuableCnt{
+    padding-bottom: 65px;
+}
+.ValuableFeedbacCnt{
+    padding-left: 90px;
+}
+
+.ValuableFeedbacCnt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #7a7a7a;
+    padding-top: 100px;
+    padding-bottom: 24px;
+  
+}
+.ValuableFeedbacCnt h5{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 200%;
+    color: #353535;
+}
+.ValuableFeedbacCnt span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: center;
+    color: #7a7a7a;
+}
+ /* Valuable feedback  End */
+ /*  From My Blog Post start */
+ .MyBlog{
+    padding: 70px 0px 150px;
+ }
+ .MyBlogCard{
+    width: 100%;
+    padding-top: 45px;
+ }
+ .MyBlog h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 135%;
+    text-align: center;
+    color: #353535;
+ }
+ .MyBlogImg{
+    border-radius: 20px;
+    width: 260px;
+    height: 243px;
+    margin-right: 30px;
+ }
+
+.MyBlogCnt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 190%;
+    color: #7a7a7a;
+}
+.MyBlogCnt span{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 190%;
+    color: #353535;
+    padding-left: 12px;
+}
+.MyBlogCnt h6{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 190%;
+    color: #353535;
+    padding: 13px 0px 55px;
+}
+.MyBlogCnt a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+}
+.MyBlogCnt a i{
+    width: 20px;
+    height: 20px;
+    padding-left:10px;
+}
+ /*  From My Blog Post End */
+ /* Subscribe Now Start */
+ .SubscribeNow .container{
+    background-image: url(../Images/Subscribe\ Now\ bg\ img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    height: 295px;
+    padding: 78px 70px 89px 70px;
+ }
+ .SubscribeCnt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #353535;
+ }
+ .SubscribeCnt h2{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 200%;
+    color: #353535;
+ }
+ .SubscribeBtn{
+    padding-top: 50px;
+ }
+ .SubscribeBtn input{
+    border-radius: 16px;
+    width: 270px;
+    height: 70px;
+    border: none;
+    padding-left: 37px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+    display: inline-block;
+    border: none;
+    outline: none;
+    position: absolute;
+ }
+ .SubscribeBtn  a{
+    border-radius: 0 16px 16px 0;
+    width: 132px;
+    height: 70px;
+    background: #ff6565;
+    padding: 25px;
+    color: #f4f3f3;
+    position: relative;
+    margin-left: 255px;
+    top: 23px
+ }
+ /* Subscribe Now End */
+
+ /* FOOTER start */
+ .FOOTER{
+    background-image: url(../Images/footer\ Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    margin-top: 150px;
+    padding-top: 71px;
+ }
+ .FOOTER img{
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+ }
+ .FOOTER .Let h1{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 200%;
+    color: #fff;
+
+ }
+ .FOOTER .Let p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    text-align: justify;
+    color: #bbb9b9;
+   
+ }
+ .FOOTER .LetsTalk a{ 
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #fff;
+    border-radius: 16px;
+    background: #fc0;
+    padding: 16px 0px 15px 32px;
+    display: inline-block;
+ }
+ .FOOTER .LetsTalk a i{
+    padding: 5px 33px 5px 11px;
+ }
+ .second-row{
+    padding-top: 94px;
+ }
+ .second-row p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    color: #bbb9b9;
+ }
+ .second-row a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+ }
+ .second-row .Follow{
+    display:ruby;
+ }
+ .second-row .Follow p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    color: #fff;
+    padding-right: 22px;
+ }
+
+ .second-row .Follow a{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #484848;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+ }
+ .second-row .Follow a:hover{
+    background-color: rgb(229, 196, 9);
+ }
+ /* FOOTER End */
+
+ /* About Me Start  */
+ #AboutMe{
+    padding-top: 59px;
+    padding-bottom: 85px;
+ }
+ #AboutMe .container{
+    background-image: url(../Images/About\ Bg\ img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ #AboutMe h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 46px;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 7px;
+ }
+ #AboutMe p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 190%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 39px;
+ }
+ /* About Me  End*/
+ /* About Cv Start */
+ .AboutCvCnt .pr{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 190%;
+    color: #7a7a7a;
+    padding-bottom: 105px;
+ }
+  .AboutCvCnt .dittls p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 190%;
+    color: #7a7a7a;
+    margin-bottom: 12px;
+ }
+  .AboutCvCnt .dittls p span{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 190%;
+    color: #353535;
+    padding-left: 10px;
+ }
+ .AboutCvCnt .button{
+    padding-top: 44px;
+ }
+ .AboutCvCnt .button a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #fff;
+    background: #fc0;
+    border-radius: 12px;
+    width: 180px;
+    height: 49px;
+    padding: 10px 21px 10px 21px;
+ }
+ .AboutCvCnt{
+    margin-bottom: 120px;
+ }
+ #AboutCv hr{
+    border: 0.70px solid #7a7a7a;
+    width: 100%;
+ }
+ /* About Cv End */
+ /* My Work Start */
+ #MyWork{
+    padding-top: 70px;
+ }
+ #MyWork .Experience h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: #353535;
+    padding-bottom: 50px;
+ }
+ .ExperienceCnt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #7a7a7a;
+    padding-bottom: 10px;
+ }
+ .ExperienceCnt h2{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+    padding-bottom: 16px;
+ }
+ .ExperienceCnt span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+ }
+ .ExperienceCnt{
+    border-left: 2px dashed #7a7a7a;
+    padding-left: 48px;
+    position: relative;
+ }
+ .ExperienceCnt::before{
+    content:'' ;
+    position: absolute;
+    top: -4px;
+    left: -18px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px dashed #7a7a7a;
+    background-color: white;
+}
+.ExperienceCnt::after{
+    content:'' ;
+    position: absolute;
+    top: 5px;
+    left: -9px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #52ab70;
+}
+ .green::after{
+    background-color: #52ab70;
+}
+.red::after{
+    background-color: #f17676;
+}
+.yellow::after{
+    background-color: #ffd233;
+}
+
+#ExperienceCnt1{
+    border-left: 2px dashed #7a7a7a;
+    padding-left: 48px;
+    position: relative;
+ }
+  #ExperienceCnt1::before{
+    content:'' ;
+    position: absolute;
+    top: -4px;
+    left: -18px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px dashed #7a7a7a;
+    background-color: white;
+}
+ #ExperienceCnt1::after{
+    content:'' ;
+    position: absolute;
+    top: 5px;
+    left: -9px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #52ab70;
+}
+#ExperienceCnt1.green::after{
+    background-color: #52ab70;
+}
+#ExperienceCnt1.red::after{
+    background-color: #f17676;
+}
+#ExperienceCnt1.yellow::after{
+    background-color: #ffd233;
+}
+ /* My Work End */
+ /* Skills Start */
+ .Skills{
+    padding-top: 100px;
+ }
+ .Skills h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: #353535;
+    padding-bottom: 50px;
+ }
+ .Skills .Figma{
+    padding-bottom: 16px;
+ }
+ .Skills .Figma h2{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+ }
+ .Skills .Figma p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: end;
+    color: #f16500;
+    padding-left: 270px;
+ }
+ .Skills .figmaCnt .progress{
+    border-radius: 20px;
+    width: 362px;
+    height: 4px;
+    background: #d9d9d9;
+ }
+ .Skills .figmaCnt .progress-bar{
+    background-color: #f16500;
+ }
+
+ .Skills .XD{
+    padding-bottom: 16px;
+ }
+ .Skills .XD h2{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+ }
+ .Skills .XD p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: end;
+    color: #700d60;
+    padding-left: 240px;
+ }
+ .Skills .XDCnt .progress{
+    border-radius: 20px;
+    width: 362px;
+    height: 4px;
+    background: #d9d9d9;
+ }
+ .Skills .XDCnt .progress-bar{
+    background-color: #700d60;
+ }
+
+
+ .Skills .AdobeIllustrator{
+    padding-bottom: 16px;
+ }
+ .Skills .AdobeIllustrator h2{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 180%;
+    color: #353535;
+ }
+ .Skills .AdobeIllustrator p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: end;
+    color: #efc003;
+    padding-left: 150px;
+ }
+ .Skills .AdobeIllustratorCnt .progress{
+    border-radius: 20px;
+    width: 362px;
+    height: 4px;
+    background: #d9d9d9;
+ }
+ .Skills .AdobeIllustratorCnt .progress-bar{
+    background-color: #efc003;
+ }
+
+
+ .Skills .AdobePhotoshop{
+    padding-bottom: 16px;
+    padding-top: 50px;
+ }
+ .Skills .AdobePhotoshop h2{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 180%;
+    color: #353535;
+ }
+ .Skills .AdobePhotoshop p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: end;
+    color: #03249b;
+    padding-left:180px;
+ }
+ .Skills .AdobePhotoshopCnt .progress{
+    border-radius: 20px;
+    width: 362px;
+    height: 4px;
+    background: #d9d9d9;
+ }
+ .Skills .AdobePhotoshopCnt .progress-bar{
+    background-color: #03249b;
+ }
+ /* Skills End */
+
+ /* Project */
+ .Project .row {
+    background-image: url(../Images/About\ Bg\ img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    margin-bottom: 100px;
+ }
+ .Project h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 46px;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+ }
+ .Project p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 190%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 40px;
+    padding-top: 8px;
+ }
+ .ProjectCnt .All {
+
+ }
+ .nav-link{
+    border: none;
+    background-color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    
+ }
+ .website h6{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #7a7a7a;
+    padding-top: 25px;
+ }
+ .website  h1{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    color: #353535;
+    padding-top: 8px;
+ }
+  
+ /* Project */
+ /* Blog Start */
+ .Blog .BlogCnt h1{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 164%;
+    color: #353535;
+    padding-bottom: 13px;
+ }
+ .Blog .BlogCnt{
+    padding-left: 0px;
+ }
+ .Blog .BlogCnt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+ }
+ .Blog .BlogCnt .pr{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #7a7a7a;
+    padding-top: 35px;
+ }
+ .Blog .BlogCnt .pr i{
+    padding-right: 13px;
+ }
+ .Blog .BlogCnt .pr span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    padding-left: 13px;
+ }
+ /* Blog End */
+ /* BlogPjt Start */
+ .BlogPjt{
+    padding-top: 110px;
+
+ }
+ .BlogPjtCnt img{
+    width: 350px;
+ }
+.BlogPjt .BlogPjtCnt h1{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.BlogPjt .BlogPjtCnt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #7a7a7a;
+    padding-bottom: 18px;
+}
+.BlogPjt .BlogPjtCnt .pr{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #7a7a7a;
+}
+.BlogPjt .BlogPjtCnt .pr i{
+    padding-right: 13px;
+}
+.BlogPjt .BlogPjtCnt .pr span{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 190%;
+    color: #353535;
+    padding-left: 27px;
+}
+
+ /* BlogPjt End */
+
+ /* Contact Start */
+ .ContactCnt i {
+    color: red;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 22px;
+ }
+ .ContactCnt .AddressImg .img{
+    border-radius: 100%;
+    background-color:  #ffebdc ;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-top: 5px;
+ }
+ .ContactCnt .AddressCnt h4{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 190%;
+    color: #353535;
+ }
+ .ContactCnt .AddressCnt p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 190%;
+    color: #7a7a7a;
+ }
+ .Address{
+    padding-bottom: 33px;
+ }
+ .Mail{
+    padding-bottom: 33px;
+ }
+ .Mail i{
+    color: #55852f;
+ }
+ .Mail .AddressImg .img{
+    background-color: #f0ffe4;
+ }
+ .Phone i{
+    color: #234bda;
+ }
+ .Phone .AddressImg .img{
+    background-color: #eef2ff;
+ }
+
+ .ContactCnt .input .NameEmail input{
+    border: 0.50px solid #7a7a7a;
+    border-radius: 12px;
+    width: 50%;
+    height: 64px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 190%;
+    color: #7a7a7a;
+    padding-left: 32px;
+    margin-bottom: 16px;
+    
+ }
+ .ContactCnt .input .message textarea{
+    border: 0.50px solid #7a7a7a;
+    border-radius: 12px;
+    width: 100%;
+    height: 246px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 190%;
+    color: #7a7a7a;
+    padding-top: 16px;
+    padding-left: 32px;
+ }
+ .ContactCnt .Send button{
+    border-radius: 12px;
+    width: 180px;
+    height: 54px;
+    background: #fc0;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin-top: 32px;
+ }
+ .ContactCnt .Send button:hover{
+    background-color: #234bda;
+    
+ }
+
+ /* Contact End */

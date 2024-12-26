@@ -1,0 +1,665 @@
+
+/* Banner start */
+@media(min-width:320px) and (max-width:800px){
+    .Banner .BannerCnt {
+        padding-top: 20px;
+    } 
+    .Banner .BannerCnt h1 {
+        font-size: 34px;
+    }
+    .Banner .BannerCnt h5{
+        font-size: 15px;
+    }
+    .Banner .BannerCnt p {
+        font-size: 15px;
+    }
+    .BannerCnt .btn a {
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    .BannerCnt .btn{
+        border-radius: 10px;
+        width: 110px;
+        height: 35px;
+        margin-left: 15px;
+    }
+    .BannerCnt .btn a:hover{
+        font-size: 10px;
+    }
+    .BannerImg img {
+        width: 100%;
+    }
+    .BannerCnt .btn {
+        margin-top: 20px;
+    }
+  
+}
+/* Banner End */
+
+/* About start */
+
+@media(min-width:320px) and (max-width:800px){
+    .AboutMe {
+        padding-top: 80px;
+    }
+   .AboutImg img{
+    width: 100%;
+    transform: scaleX(-1);
+   }
+   .AboutCnt h1{
+    font-size: 24px;
+    padding-top: 0px;
+   }
+   .AboutCnt p {
+    font-size: 14px;
+   }
+   .navbar {
+    background-color: rgb(201, 229, 220);
+   }
+}
+/* About End */
+/* Card Start */
+@media(min-width:320px) and (max-width:800px){
+    .CardItem{
+        padding-top: 30px;
+    }
+    .Card .CardItem p {
+        text-align: center;
+    }
+    .Card .CardItem h3{
+        text-align: left;
+    }
+    .Card .CardItem {
+         padding-left: 16px;
+        height: 275px;
+        width: 100% !important;
+    }
+}
+
+/* Card End */
+
+/* Branding Start */
+@media(min-width:320px) and (max-width:800px){
+    .BrandingBg{
+        padding-left: 25px;
+    }
+    .BrandingBg img {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .Branding .BrandinCnt h2 {
+        font-size: 24px;
+    }
+    .Branding .BrandinCnt p{
+        font-size: 14px;
+        line-height: 180%;
+    }
+    .Branding .BrandinCnt a {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 180%;
+        color: #353535;
+        border: none;
+        padding: 0px;
+    }
+}
+/* Branding End */
+/* Help Start */
+@media(min-width:320px) and (max-width:800px){
+    .Help .What h1{
+        font-size: 24px;
+        text-align: left;
+    }
+    .Help .What p {
+        font-size: 14px;
+        text-align: left;
+    }
+   
+    .Help .count {
+        justify-content: left;
+    }
+    .Help .count .count2{
+        padding-left: 110px;
+        width: 0px;
+    }
+    
+    .Help .count .count2 h5{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .Help .count .count2 span{
+        font-size: 10px;
+        display: ruby-text;
+
+    }
+    .Help .count .count1{
+        width: 0px;
+    }
+    .Help .count .count1 h5{
+        font-size: 24px;
+    }
+    .Help .count .count1 span{
+        font-size: 10px;
+        display: ruby-text;
+    }
+}
+/* Help End */
+
+/* My Work Start */
+@media(min-width:320px) and (max-width:800px){
+    .MyWork{
+        padding-left: 42px;
+    }
+    .MyWork h1{
+        font-size: 24px;
+    }
+    .MyWork .year h4 {
+        font-size: 15px;
+    }
+    .MyWork .totle h4{
+        font-size: 15px;
+    }
+    .MyWork .totle span{
+        font-size: 12px;
+    }
+    .MyWork .yearCnt {
+        padding: 0px 0 0px;
+        border: none;
+    }
+    .MyWork .totle {
+        padding-left:10px;
+        margin-bottom: 20px;
+    }
+    .Timeline{
+        padding-left: 60px;
+        border-left: 2px dashed #7a7a7a;
+    }
+    .MyWork .yearCnt::before {
+         right: 323px;
+    }
+    .MyWork .yearCnt::after {
+        right: 333px;
+    }
+}
+
+@media(min-width:300px){
+    .MyWork.yearCnt::before {
+        right: 322px;
+    }
+    .MyWork.yearCnt::after {
+        right: 333px;
+    }
+}
+/* My Work End */
+/* My Expert Start */
+@media(min-width:320px) and (max-width:800px){
+    .MyExpert .MyExpertCnt h1{
+        font-size: 24px;
+        padding-bottom: 18px;
+    }
+    .MyExpert .MyExpertCnt p{
+        font-size: 15px;
+    }
+    .MyExpert .MyExpertCnt a{
+        display: none;
+    }
+    #myTab{
+        display: ruby-text;
+    }
+}
+/* My Expert End */
+/* progress Bar start */
+@media(min-width:320px) and (max-width:800px){
+    .progressBar {
+        padding-left:10px;
+    }
+    .progressBar .Figma .number{
+        padding-left: 10px;
+    }
+    .progressBar .Photoshop .number{
+        padding-left: 10px;
+    }
+    .progressBar .XD .number {
+        padding-left: 10px;
+    }
+    .progressBar .Illustrator .number{
+        padding-left: 10px;
+    }
+}
+/* progress Bar End */
+
+/* .My Sevices  Start */
+@media(min-width:320px) and (max-width:800px){
+    .MySevices h1{
+        font-size: 24px;
+        text-align: left;
+    }
+    .MySevices p{
+        font-size: 12px;
+        text-align: left;
+    }
+    .MySevicesCard {
+        width: 340px;
+        height: 200px;
+    }
+    .MySevicesCard img{
+        width: 60px;
+        margin-right: 228px;
+    }
+    .MySevicesCard h3 {
+        font-size: 16px;
+        margin-bottom: -11px;
+        margin-top: -69px;
+        padding-left: 48px;
+    }
+    .MySevices .sm {
+        font-size: 10px;
+        text-align: left;
+        padding-left: 77px;
+    }
+    .MySevicesCard {
+        margin-top: 27px;
+        margin-bottom: -11px;
+    }
+    .MySevicesCard:hover{
+        width: 345px;
+        height: 205px;;
+     }
+    
+}
+/* .My Sevices End */
+
+/* Valuable feedback  Start */
+
+@media(min-width:320px) and (max-width:800px){
+    .ValuableFeedbac h1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .ValuableFeedbac p {
+        font-size: 13px;
+    }
+    .ValuableFeedbacImg img{
+        width: 100%;
+        padding-right: 20px;
+    }
+    .ValuableFeedbacCnt p {
+        font-size: 11px !important;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .ValuableFeedbacCnt {
+        padding-left: 10px;
+    }
+}
+/* Valuable feedback  End */
+/*  My Blog post start */
+@media(min-width:320px) and (max-width:800px){
+
+    .MyBlog h1{
+        font-size: 24px;
+        text-align: start;
+    }
+    .MyBlogImg img {
+        border-radius: 20px;
+        width: 163px;
+    }
+    .MyBlogImg{
+        height: 0px;
+    }
+    .MyBlogCnt{
+        text-align: end;
+        display: inline-block;
+        padding-right: 51px;
+    }
+    .MyBlogCnt p{
+        font-size: 10px;
+        padding-right: 10px;
+    }
+    .MyBlogCnt span{
+        font-size: 10px;
+    }
+    .MyBlogCnt h6 {
+        font-size: 13px;
+        margin-left: 55%;
+        padding: 13px 0px 27px;
+        text-align: justify;
+    }
+    .MyBlogCnt a {
+        font-size: 12px;
+        display: flex;
+        margin-left: 55%;
+    }
+}
+/*  My Blog post End */
+/* Subscribe Now start */
+@media(min-width:320px) and (max-width:800px){
+    .SubscribeNow .container{
+        padding: 0px;
+        padding-top: 32px;
+        padding-left: 40px;
+    }
+    .SubscribeCnt p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .SubscribeCnt .res{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .SubscribeCnt h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .SubscribeBtn input {
+        border-radius: 10px;
+        width: 262px;
+        height: 47px;
+    }
+    .SubscribeBtn a{
+        padding: 15px;
+        margin-left: 227px;
+        top: 12px;
+    }
+    .SubscribeNow{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+   
+/* Subscribe Now End */
+/* FOOTER Start */
+@media(min-width:320px) and (max-width:800px){
+    .FOOTER {
+        margin-top: 59px;
+        padding-top: 29px;
+        padding-left: 17px;
+    }
+    .FOOTER img{
+        width: 114px;
+    }
+    .FOOTER .Let h1{
+        font-size: 18px;
+        padding-top: 17px;
+       
+    }
+    .FOOTER .Let p {
+        font-size: 13px;
+    }
+    .FOOTER .LetsTalk a{
+        padding: 8px 0px 8px 18px;
+        margin-top: 30px;
+    }
+    .second-row .Call{
+        width: 50%;
+    }
+    .second-row p {
+        font-size: 12px;
+    }
+    .second-row a{
+        font-size: 13px;
+    }
+    .second-row{
+        padding-top: 39px;
+    }
+    .second-row .Follow{
+        padding-top: 33px;
+    }
+
+}
+/* FOOTER End */
+
+/* About Me start */
+@media(min-width:320px) and (max-width:800px){
+    #AboutMe {
+        padding: 0px;
+    }
+    #AboutMe h1{
+        font-size: 28px;
+    }
+    #AboutMe p{
+        font-size: 12px;
+    }
+}
+/* About Me End */
+
+/* AboutCv Start */
+@media(min-width:320px) and (max-width:800px){
+    #AboutCv .AboutCvCnt {
+        margin-bottom: 35px;
+    }
+    #AboutCv .AboutCvCnt .pr{
+        font-size: 13px;
+        text-align: justify;
+        padding-bottom: 0px;
+    }
+    .AboutCvCnt .dittls p{
+        font-size: 13px;
+    }
+    .AboutCvCnt .dittls p span{
+        font-size: 13px;
+    }
+    .AboutCvCnt{
+        margin-bottom: 0px;
+        padding-left: 20px;
+    }
+    .AboutCvCnt hr {
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+}
+
+/* AboutCv End */
+
+/* Experience start */
+@media(min-width:320px) and (max-width:800px){
+    #ExperienceCnt1 {
+        border-left: none;
+        padding-left: 0;
+        position: none ;
+    }
+
+    #ExperienceCnt1::before{
+        border-radius: 0;
+        background-color: white;
+        display: none;
+    }
+     #ExperienceCnt1::after{
+        display: none;
+    }
+    #ExperienceCnt1.green::after{
+        background-color:white;
+    }
+    #ExperienceCnt1.red::after{
+        background-color:white;
+    }
+    #ExperienceCnt1.yellow::after{
+        background-color: white;
+    }
+    .ExperienceCnt p{
+        display: none;
+    }
+    .ExperienceCnt h2 p{
+        display: none;
+    }
+    .ExperienceCnt h2{
+        font-size: 15px;
+    }
+    .ExperienceCnt span {
+        font-size: 12px;
+        
+    }
+    #ExperienceCnt1{
+        padding-left: 30px;
+    }
+    .ExperienceCnt{
+        padding-left: 31px;
+    }
+    #MyWork .Experience h1{
+        padding-left: 30px;
+        font-size: 22px;
+    }
+    .ExperienceCnt {
+        padding-bottom: 20px;
+    }
+}
+/* Experience End */
+
+/* Skills start */
+@media(min-width:320px) and (max-width:800px){
+    .Skills {
+        padding-top: 50px;
+    }
+    .Skills h1{
+        font-size: 24px;
+    }
+    .SkillsCnt{
+        margin-bottom: 50px;
+    }
+    .Skills .AdobePhotoshop{
+        padding-top: 0px;
+    }
+}
+/* Skills End */
+
+/* Project Start */
+@media(min-width:320px) and (max-width:800px){
+    .Project{
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .Project h1{
+        font-size: 28px;
+    }
+    .Project p{
+        font-size: 12px;
+    }
+    .ProjectCnt .nav-item{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 20px;
+    }
+    .ProjectCnt .tab-content{
+        padding-top: 0px !important;
+    }
+    .ProjectCnt #pills-profile-tab{
+        padding-left: 61px;
+        padding-right: 43px;
+    }
+    .Project .row {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .website img {
+        width: 100%;
+    }
+    .website{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .website h1 {
+        font-size: 15px;
+        padding-bottom: 40px;
+    }
+}
+/* Project End */
+
+/* Blog Start */
+@media(min-width:320px) and (max-width:800px){
+    .BlogImg img {
+        width: 100%;
+    } 
+    .Blog .BlogCnt h1{
+        font-size: 18px;
+        padding-top: 32px;
+        padding-bottom: 14px;
+    }
+    .Blog .BlogCnt p{
+        font-size: 15px;
+    }
+    .Blog .BlogCnt .pr{
+        padding-top: 20px;
+    }
+    .Blog .BlogCnt{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .BlogPjt {
+        padding-top: 61px;
+    }
+    .BlogPjtCnt {
+        display: flex;
+        padding-top: 0px !important;
+        padding-bottom: 30px;
+    }
+    .BlogPjtCnt img{
+        width: 163px;
+        height: 153px;
+    }
+    .BlogPjt .BlogPjtCnt h1{
+        font-size: 13px;
+        padding-top: 0px;
+    }
+    .BlogPjt .BlogPjtCnt .pr{
+        font-size: 13px;
+    }
+    .BlogPjt .BlogPjtCnt .pr span{
+        font-size: 13px;
+        padding-left: 6px;
+    }
+    .BlogPjtText{
+        padding-left: 25px;
+    }
+     
+}
+/* Blog End */
+/* Contact Start */
+@media(min-width:320px) and (max-width:800px){
+    .ContactCnt .AddressImg .img{
+        width: 45px;
+        height: 45px;
+    }
+    .ContactCnt i{
+        font-size: 18px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .ContactCnt .AddressCnt h4{
+        font-size: 15px;
+    }
+    .ContactCnt .AddressCnt p{
+        font-size: 11px;
+    }
+    .ContactCnt .Phone{
+        padding-bottom: 50px;
+    }
+    .ContactCnt .input .NameEmail input{
+        height: 36px;
+        font-size: 11px;
+        padding-left: 17px;
+    }
+    .ContactCnt .input .message textarea{
+        height: 141px;
+        font-size: 11px;
+        padding-left: 17px;
+    }
+    .ContactCnt .Send button{
+        width: 121px;
+        height: 44px;
+        font-size: 13px;
+    }
+    .nav-link {
+        display: block;
+        background-color:revert !important;
+    }
+}
+/* Contact End */
+     
+
+
+
+
+ 
+
+
